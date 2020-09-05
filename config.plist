@@ -1101,10 +1101,18 @@
 			<string>None</string>
 			<key>DmgLoading</key>
 			<string>Any</string>
+			<key>EnablePassword</key>
+			<false/>
 			<key>ExposeSensitiveData</key>
 			<integer>6</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
+			<key>PasswordHash</key>
+			<data>
+			</data>
+			<key>PasswordSalt</key>
+			<data>
+			</data>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
@@ -1221,15 +1229,15 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>F5K016401J9K3F71M</string>
+			<string></string>
 			<key>SpoofVendor</key>
 			<false/>
 			<key>SystemProductName</key>
 			<string>MacPro7,1</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KCLGYTP7QM</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>9B764174-8E08-4559-895F-560C18A6785C</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
