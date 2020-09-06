@@ -1010,6 +1010,8 @@
 			<false/>
 			<key>DisableIoMapper</key>
 			<false/>
+			<key>DisableLinkeditJettison</key>
+			<true/>
 			<key>DisableRtcChecksum</key>
 			<false/>
 			<key>DummyPowerManagement</key>
@@ -1166,7 +1168,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-lilubetaall alcid=1 keepsyms=1 debug=0x100</string>
+				<string>-lilubetaall alcid=1</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
