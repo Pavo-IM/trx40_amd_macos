@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>13E28</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>LWFF</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.logitech.LWFF</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Force Feedback Driver PlugIn for Logitech Devices</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFPlugInDynamicRegisterFunction</key>
+	<string></string>
+	<key>CFPlugInDynamicRegistration</key>
+	<string>NO</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>9DFF1C3C-EDDB-11D6-BD8D-0003934B778C</key>
+		<string>WMJoyFrcFactory</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>F4545CE5-BF5B-11D6-A4BB-0003933E3E3E</key>
+		<array>
+			<string>9DFF1C3C-EDDB-11D6-BD8D-0003934B778C</string>
+		</array>
+	</dict>
+	<key>CFPlugInUnloadFunction</key>
+	<string></string>
+	<key>CSResourcesFileMapped</key>
+	<string>yes</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>6C131e</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>14A383</string>
+	<key>DTSDKName</key>
+	<string>macosx10.10</string>
+	<key>DTXcode</key>
+	<string>0620</string>
+	<key>DTXcodeBuild</key>
+	<string>6C131e</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2018 logitech. All rights reserved.</string>
+</dict>
+</plist>
