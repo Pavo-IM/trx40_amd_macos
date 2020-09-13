@@ -504,6 +504,8 @@
 			<data>
 			</data>
 		</dict>
+		<key>Force</key>
+		<array/>
 		<key>Patch</key>
 		<array>
 			<dict>
