@@ -7,72 +7,96 @@
 		<key>Add</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>PLUG</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-PLUG.aml</string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>SBRG</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-SBRG.aml</string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>SBUS</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-SBUS.aml</string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>IMEI</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-IMEI.aml</string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>ALS0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-ALS0.aml</string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>NVRAM</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-NVRAM.aml</string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>USBX</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-USBX.aml</string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>GFX</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-GFX.aml</string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>XGE</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-XGE.aml</string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>ARPT</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-ARPT.aml</string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>XHC</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-XHC.aml</string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>SATA</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -295,6 +319,8 @@
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
+				<key>Comment</key>
+				<string>Lilu</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -311,6 +337,8 @@
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
+				<key>Comment</key>
+				<string>VirtualSMC</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -327,6 +355,8 @@
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>NVMeFix.kext</string>
+				<key>Comment</key>
+				<string>NVMeFix</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -343,6 +373,8 @@
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
+				<key>Comment</key>
+				<string>AppleALC</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -359,6 +391,8 @@
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>SmallTreeIntel82576.kext</string>
+				<key>Comment</key>
+				<string>SmallTree</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -375,6 +409,8 @@
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
+				<key>Comment</key>
+				<string>AirportFixup</string>
 				<key>Enabled</key>
 				<true/>
 				<key>MaxKernel</key>
@@ -389,6 +425,8 @@
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext</string>
+				<key>Comment</key>
+				<string>AirportFixup</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -405,6 +443,8 @@
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>BrcmBluetoothInjector.kext</string>
+				<key>Comment</key>
+				<string>Bluetooth</string>
 				<key>Enabled</key>
 				<true/>
 				<key>MaxKernel</key>
@@ -419,6 +459,8 @@
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>BrcmFirmwareData.kext</string>
+				<key>Comment</key>
+				<string>Bluetooth</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -435,6 +477,8 @@
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>BrcmPatchRAM3.kext</string>
+				<key>Comment</key>
+				<string>Bluetooth</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -451,6 +495,8 @@
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>LogiGamingMouseFilter.kext</string>
+				<key>Comment</key>
+				<string>Logitech</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -467,6 +513,8 @@
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>LogiWheelDriver.kext</string>
+				<key>Comment</key>
+				<string>Logitech</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -483,6 +531,8 @@
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>AGPMInjector.kext</string>
+				<key>Comment</key>
+				<string>AGPM</string>
 				<key>Enabled</key>
 				<true/>
 				<key>MaxKernel</key>
